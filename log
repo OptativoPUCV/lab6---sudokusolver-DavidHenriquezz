@@ -10,3 +10,14 @@ Thu 16 May 2024 09:17:24 PM UTC:
  tests:  0|5
 total_score: 0/70
 2eacb95
+Thu 16 May 2024 09:18:56 PM UTC: 
+ sudoku.c | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+sudoku.c: In function ‘get_adj_nodes’:
+sudoku.c:60:14: error: ‘k’ may be used uninitialized in this function [-Werror=maybe-uninitialized]
+   60 |             k++;
+      |             ~^~
+cc1: all warnings being treated as errors
+Compilation failed
+f45caac
