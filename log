@@ -91,3 +91,13 @@ Thu 16 May 2024 09:51:05 PM UTC:
  tests:  6|2
 total_score: 45/70
 18e0615
+Thu 16 May 2024 09:57:26 PM UTC: 
+ sudoku.c | 10 +++++++++-
+ 1 file changed, 9 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+sudoku.c: In function ‘DFS’:
+sudoku.c:122:16: error: expected expression before ‘;’ token
+  122 |       (cont)+++;
+      |                ^
+Compilation failed
+ff51db8
