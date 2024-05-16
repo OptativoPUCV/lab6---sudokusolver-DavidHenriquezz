@@ -119,7 +119,7 @@ Node* DFS(Node* initial, int* cont){
    while(get_size(S) != 0){
       Node* n = top(S);
       pop(S);
-      (cont)+++;
+      (cont)++;
       if(is_final(n)==1){
          return n;
       }
